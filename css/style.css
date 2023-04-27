@@ -24,7 +24,7 @@
     height: 18em;
     width: 37em;
     background-color: grey;
-    border-radius: 2em;
+    border-radius: 3em;
     box-shadow: inset 0 0 0.5em 0.5em rgb(98, 94, 94);
     border-color: rgb(78, 78, 78);
     display: flex;
@@ -32,17 +32,27 @@
 }
 
 .select{
-    height: 3em;
-    width: 3em;
-    margin-left: 3em;
+    height: 2em;
+    width: 2em;
+    margin-left: 9em;
+    margin-top: 4em;
     display: flex;
     font-family: Arial, sans-serif;
+    font-size: 0.5em;
+    font-weight: bold;
     
+}
+.selectbutton{
+    margin-left: 5.1em;
+    height: 0.60em;
+    width: 0.60em;
+    border-radius: 50%;
+    background-color: black;
 }
 
 .joystick1 {
     height: 18em;
     width: 4em;
-   
+
 }
 
