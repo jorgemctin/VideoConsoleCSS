@@ -21,8 +21,8 @@
         justify-content: center;      
 }
 .anbernic{
-    height: 17em;
-    width: 37em;
+    height: 16em;
+    width: 35em;
     background-color: grey;
     border-radius: 3em;
     box-shadow: inset 0 0 0.5em 0.5em rgb(98, 94, 94);
@@ -58,8 +58,8 @@
 }
 
 .arrow1 {
-    margin-left: 3.3em;
-    margin-top: 1.8em;
+    margin-left: 2.9em;
+    margin-top: 1em;
     height: 4.5em;
     width: 1.5em;
     background-color: rgb(54, 45, 45);
@@ -68,7 +68,7 @@
 }
 
 .arrow2 {
-    margin-left: 1.8em;
+    margin-left: 1.4em;
     margin-top: -3em;
     height: 1.5em;
     width: 4.5em;
@@ -85,7 +85,7 @@
     border-radius: 50%;
     background-color: rgb(79, 76, 76);
     margin-top: 2.6em;
-    margin-left: 2.2em;
+    margin-left: 2em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,8 +109,8 @@
 }
 
 .borderscreen{
-    height: 16em;
-    width: 23em;
+    height: 15em;
+    width: 22em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -121,8 +121,8 @@
     
 }
 .screen {
-    height: 15em;
-    width: 22em;
+    height: 14.1em;
+    width: 20.5em;
     background-color: black;
     box-shadow: outset 0 0 0.5em 0.5em rgb(19, 18, 18);
     border-radius: 0.7em;
@@ -136,7 +136,7 @@
 .start{
     height: 2em;
     width: 2em;
-    margin-left: 1.5em;
+    margin-left: 1.2em;
     margin-top: 4em;
     display: flex;
     font-family: Arial, sans-serif;
@@ -146,7 +146,7 @@
     
 }
 .startbutton{
-    margin-left: 1.2em;
+    margin-left: 1em;
     margin-top: -0.3em;
     height: 0.75em;
     width: 0.75em;
@@ -156,11 +156,11 @@
 }
 
 .button1 {
-    margin-left: 2.5em;
-    margin-top: 1.4em;
+    margin-left: 2.2em;
+    margin-top: 0.6em;
     height: 4.9em;
     width: 1.8em;
-    background-color: rgb(159, 94, 94);
+    background-color: grey;
     border-radius: 0.5em;
     display: flex;
     justify-content: center;
@@ -168,8 +168,8 @@
 
 }
 .buttonrow {
-    margin-left: 1em;
-    margin-top: -3.3em;
+    margin-left: 0.8em;
+    margin-top: -3.4em;
     height: 1.8em;
     width: 4.9em;
     background-color: grey;
@@ -228,8 +228,8 @@
     width: 3.7em;
     border-radius: 50%;
     background-color: rgb(79, 76, 76);
-    margin-top: 2.6em;
-    margin-left: 1.5em;
+    margin-top: 2.8em;
+    margin-left: 1.2em;
     display: flex;
     justify-content: center;
     align-items: center;
