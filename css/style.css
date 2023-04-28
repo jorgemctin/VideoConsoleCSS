@@ -127,6 +127,12 @@
     box-shadow: outset 0 0 0.5em 0.5em rgb(19, 18, 18);
     border-radius: 0.7em;
 }
+
+.joystick2 {
+    height: 17em;
+    width: 7em;
+   
+}
 .start{
     height: 2em;
     width: 2em;
@@ -146,5 +152,62 @@
     width: 0.75em;
     border-radius: 50%;
     background-color: black;
+
+}
+
+.button1 {
+    margin-left: 2.5em;
+    margin-top: 1.4em;
+    height: 4.9em;
+    width: 1.8em;
+    background-color: grey;
+    border-radius: 0.5em;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.buttonrow {
+    margin-left: 1em;
+    margin-top: -3.3em;
+    height: 1.8em;
+    width: 4.9em;
+    background-color: rgb(142, 50, 50);
+    border-radius: 0.5em;
+    display: flex;
+    
+
+}
+.X{
+    height: 1.6em;
+    width: 1.6em;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    
+}
+.B{
+    height: 1.6em;
+    width: 1.6em;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5em;
+    color: yellow;
+}
+.Y{
+    height: 1.6em;
+    width: 1.6em;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
     
 }
