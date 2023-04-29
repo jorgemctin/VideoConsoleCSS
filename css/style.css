@@ -2,6 +2,7 @@
 *{
     margin: 0%;
     padding: 0;
+    box-sizing: border-box;
     
 }
 
@@ -10,7 +11,7 @@
     width:100vw;
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+    background-color: rgb(215, 224, 224);
     flex-direction: column;
 }
 
@@ -19,18 +20,27 @@
         margin-top: 13em;
         display: flex;
         align-items: center;
-        justify-content: center;      
+        justify-content: center;    
+          
+}
+.anbernicborder{
+    height: 16em;
+    width: 35em;   
+    border-radius: 3em;
+    box-shadow: 0.2em 2.2em 1.5em -1em black;
 }
 .anbernic{
     height: 16em;
     width: 35em;   
+    border: 0.1em solid black;
     border-radius: 3em;
     box-shadow: inset 0 0 0.5em 0.5em rgb(98, 94, 94);
-    border-color: rgb(78, 78, 78);
+    border-color: rgb(28, 27, 27);
     display: flex;
     background: linear-gradient(90deg,#9e9e9e 0%, #e0e0e0 40%, #777877 80%);
     background: -webkit-linear-gradient(90deg,#9e9e9e 0%, #e0e0e0 40%, #777877 80%);
     background: -moz-linear-gradient(90deg,#9e9e9e 0%, #e0e0e0 40%, #777877 80%);
+   
 
 }
 
@@ -56,8 +66,11 @@
     margin-top: -0.3em;
     height: 0.75em;
     width: 0.75em;
+    border: 0.08em solid black;
+    border-color:  black;
     border-radius: 50%;
-    background-color: black;
+    background-color: rgb(55, 54, 54);
+    box-shadow: -0.03em 0.07em 0em 0.05em rgb(103, 97, 97);
 }
 
 .arrow1 {
@@ -65,11 +78,12 @@
     margin-top: 1em;
     height: 4.5em;
     width: 1.5em;
-    background-color: rgb(54, 45, 45);
+    background-color: rgb(38, 35, 35);
     border-radius: 0.5em;
     display: flex;
     align-items:center;
     justify-content: center;
+    box-shadow: -0.03em 0.05em 0em 0.05em rgb(116, 112, 112);
  
 
 
@@ -88,11 +102,12 @@
     margin-top: -3em;
     height: 1.5em;
     width: 4.5em;
-    background-color: rgb(54, 45, 45);
+    background-color: rgb(38, 35, 35);
     border-radius: 0.5em;
     display: flex;
     align-items:center;
     justify-content: center;
+    box-shadow: -0.09em 0em 0em 0em rgb(116, 112, 112);
     
    
 
@@ -103,19 +118,20 @@
     height: 1.1em;
     width: 1.1em;
     border-radius: 50%;
-    background-color: #1f1e1ec7;
+    background-color: #322f2fc7;
     margin-right: 0.6em;
     
 }
 
 .arrowleft{
-    margin-right: 0.7em;
-    font-size: 0.9em;
+    margin-right: 0.5em;
+    margin-top: 0.1em;
+    font-size: 1em;
    
 }
 .arrowright{
-    
-    font-size: 0.9em;
+    margin-top: 0.1em;
+    font-size: 1em;
    
 }
 
@@ -123,13 +139,13 @@
     height: 3.7em;
     width: 3.7em;
     border-radius: 50%;
-    background-color: rgb(79, 76, 76);
+    background-color: rgb(133, 129, 129);
     margin-top: 2.6em;
-    margin-left: 1.7em;
+    margin-left: 1.8em;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 0.1em solid rgba(29, 27, 27, 0.468);
+    border: 0.13em solid rgba(9, 9, 9, 0.468);
 
 
 
@@ -141,7 +157,9 @@
     height: 2.7em;
     width: 2.7em;
     border-radius: 50%;
-    background-color: rgb(16, 4, 4);
+    background-color: rgb(40, 36, 36);
+    border: 0.2em solid rgba(23, 22, 22, 0.468);
+    box-shadow: -0.2em 0.34em 0em 0em rgba(79, 75, 75, 0.841);
     
 
     
@@ -191,8 +209,11 @@
     margin-top: -0.3em;
     height: 0.75em;
     width: 0.75em;
+    border: 0.08em solid black;
+    border-color:  black;
     border-radius: 50%;
-    background-color: black;
+    background-color: rgb(55, 54, 54);
+    box-shadow: 0.02em 0.07em 0em 0.05em rgb(103, 97, 97);
 
 }
 
@@ -205,6 +226,7 @@
     border-radius: 0.5em;
     display: flex;
     justify-content: center;
+    
     
     
 
@@ -224,59 +246,67 @@
 .X{
     height: 1.6em;
     width: 1.6em;
-    background-color: black;
+    background-color: rgb(40, 36, 36);
     border-radius: 50%;
+    border: 0.1em solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     color: blue;
+    box-shadow: 0.03em 0.08em 0em 0.07em rgb(116, 112, 112);
     
 }
 .B{
     height: 1.6em;
     width: 1.6em;
-    background-color: black;
+    background-color: rgb(40, 36, 36);
     border-radius: 50%;
+    border: 0.1em solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 1.5em;
     color: yellow;
+    box-shadow: 0.03em 0.08em 0em 0.07em rgb(116, 112, 112);
 }
 .Y{
     height: 1.6em;
     width: 1.6em;
-    background-color: black;
+    background-color: rgb(40, 36, 36);
+    border: 0.1em solid black;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: rgb(0, 255, 115);
+    box-shadow: 0.03em 0.08em 0em 0.07em rgb(116, 112, 112);
     
 }
 .A{
     height: 1.6em;
     width: 1.6em;
-    background-color: black;
+    background-color: rgb(40, 36, 36);
+    border: 0.1em solid black;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: rgb(166, 1, 14);
     margin-left: 1.5em;
+    box-shadow: 0.03em 0.08em 0em 0.07em rgb(116, 112, 112);
     
 }
 .joy3{
     height: 3.7em;
     width: 3.7em;
     border-radius: 50%;
-    background-color: rgb(79, 76, 76);
+    background-color: rgb(133, 129, 129);
     margin-top: 2.8em;
     margin-left: 1.2em;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 0.1em solid rgba(29, 27, 27, 0.468);
+    border: 0.13em solid rgba(9, 9, 9, 0.468);
 }
 
 .joy4{
@@ -284,6 +314,8 @@
     height: 2.7em;
     width: 2.7em;
     border-radius: 50%;
-    background-color: rgb(16, 4, 4);
+    background-color: rgb(40, 36, 36);
+    border: 0.2em solid rgba(23, 22, 22, 0.468);
+    box-shadow: 0.2em 0.3em 0em 0em rgba(79, 75, 75, 0.759);
 
 }
