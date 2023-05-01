@@ -3,7 +3,8 @@
 
 ![consola](./img/consola.png)
 
-####Consola: 
+#### Consola: 
+
 Anbernic RG552
 
 #### Tecnologías utilizadas:
