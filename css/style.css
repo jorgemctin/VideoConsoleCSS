@@ -11,25 +11,95 @@
     width:100vw;
     display: flex;
     flex-direction: column;
-    background-color: rgb(215, 224, 224);
+    background-color: rgba(10, 93, 93, 0.681);
     flex-direction: column;
+    
 }
 
 .all{
-        height: 20em;
-        margin-top: 13em;
-        display: flex;
-        align-items: center;
-        justify-content: center;    
+    height: 20em;
+    margin-top: 13em;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
           
+}   
+.outsidebuttons{
+    height: 18em;
+    width: 40em;
+    margin-left: 5em;
+    
+    
 }
+.outmidleft{
+    height: 3.8em;
+    width: 1em;
+    background-color: rgba(31, 28, 28, 0.892);
+    margin-bottom: -10em;
+    margin-left: -0.15em;
+   
+}
+.outmidright{
+    height: 2em;
+    width: 1em;
+    background-color: rgba(31, 28, 28, 0.892);
+    margin-bottom: -7em;
+    margin-top: 5em;
+    margin-left: 34.17em;
+}
+.left{
+    height: 2em;
+    width: 3.8em;
+    background-color: rgba(31, 28, 28, 0.892);
+    margin-left: 0.56em;
+    margin-bottom: -2.03em;
+    border-radius: 80% 0 0 0;
+   
+
+}
+
+.right{
+    height: 2.5em;
+    width: 4em;
+    margin-left: 30.6em;
+    background-color: rgba(31, 28, 28, 0.892);
+    margin-bottom: -2.46em;
+    border-radius: 0 80% 0 0;
+  
+}
+.buttonupleft{
+   height: 0.64em;
+   width: 2.2em; 
+   background-color: rgba(31, 28, 28, 0.892);
+   margin-left: 4.9em;
+   border-radius: 10% 10% 30% 30%;  
+   margin-bottom: -0.66em;
+  
+   
+ 
+}
+
+.buttonupright{
+    height: 0.58em;
+    width: 2.2em; 
+    background-color: rgba(31, 28, 28, 0.892);
+    margin-left: 27.8em;
+    border-radius: 10% 10% 30% 30% ;
+    margin-bottom: -0.197em;
+   
+    
+}
+
 .anbernicborder{
     height: 16em;
     width: 35em;   
     border-radius: 3em;
     box-shadow: 0.2em 2.2em 1.5em -1em black;
+    z-index: 1;
+    
 }
 .anbernic{
+    
     height: 16em;
     width: 35em;   
     border: 0.1em solid black;
@@ -69,8 +139,19 @@
     border: 0.08em solid black;
     border-color:  black;
     border-radius: 50%;
+    cursor: pointer;
     background-color: rgb(55, 54, 54);
     box-shadow: -0.03em 0.07em 0em 0.05em rgb(103, 97, 97);
+}
+
+.selectbutton:active{
+  
+    
+    background-color: rgba(66, 68, 67, 0.773);
+    border-radius: 50%;
+    box-shadow: none;
+    
+
 }
 
 .arrow1 {
@@ -88,13 +169,31 @@
 
 
 }
+.arrowup:active{
+    
+    background-color: rgba(127, 132, 131, 0.232);
+    border-radius: 50% 50% 20% 20%;
+    box-shadow: none;
+    
+
+}
 
 .arrowup{
     margin-bottom: 1.7em;
     font-size: 1.06em;
+    cursor: pointer;
 }
 .arrowdown{
     font-size: 1.06em;
+    cursor: pointer;
+}
+.arrowdown:active{
+   
+    background-color: rgba(127, 132, 131, 0.232);
+    border-radius: 20% 20% 50% 50%;
+    box-shadow: none;
+   
+
 }
 
 .arrow2 {
@@ -127,11 +226,28 @@
     margin-right: 0.5em;
     margin-top: 0.1em;
     font-size: 1em;
+    cursor: pointer;
+
    
+}
+
+.arrowleft:active{
+    background-color: rgba(127, 132, 131, 0.232);
+    border-radius: 30% 30% 30% 30%;
+    box-shadow: none;
+    
+
 }
 .arrowright{
     margin-top: 0.1em;
     font-size: 1em;
+    cursor: pointer;
+   
+}
+.arrowright:active{
+    background-color: rgba(127, 132, 131, 0.232);
+    border-radius: 30% 30% 30% 30%;
+    box-shadow: none;
    
 }
 
@@ -160,10 +276,20 @@
     background-color: rgb(40, 36, 36);
     border: 0.2em solid rgba(23, 22, 22, 0.468);
     box-shadow: -0.2em 0.34em 0em 0em rgba(79, 75, 75, 0.841);
+    cursor: pointer;
     
 
     
     
+}
+.joy2:active{
+    margin-top: -0.5em;
+    margin-left: 0.5em;
+ 
+    background-color: solid rgba(21, 22, 22, 0.093);
+    border-radius: 50%;
+    box-shadow: -0.1em 0.2em 0.06em 0.1em rgba(79, 75, 75, 0.841);
+
 }
 
 .borderscreen{
@@ -172,19 +298,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(82, 81, 81);
+    background-color: black;
     margin-top: 0.5em;
-    box-shadow: inset 0 0 0.5em 0.5em rgb(43, 42, 42);
-    border-radius: 1em;
+   
+    border-radius: 0.6em;
     border: 0.01em solid black;
     
 }
 .screen {
-    height: 14.1em;
-    width: 20.5em;
-    background-color: black;
+    height: 14em;
+    width: 19.6em;
+    background-color: rgb(44, 41, 41);
     box-shadow: outset 0 0 0.5em 0.5em rgb(19, 18, 18);
-    border-radius: 0.7em;
+    border-radius: 0.2em;
 }
 
 .joystick2 {
@@ -204,9 +330,10 @@
     
     
 }
-.startbutton{
+.startbutton, .video{
+    cursor: pointer;
     margin-left: 1em;
-    margin-top: -0.3em;
+    margin-top: -0.64em;
     height: 0.75em;
     width: 0.75em;
     border: 0.08em solid black;
@@ -217,6 +344,26 @@
 
 }
 
+.startbutton:active{
+  
+    
+    background-color: rgba(66, 68, 67, 0.773);
+    border-radius: 50%;
+    box-shadow: none;
+    
+
+}
+.lightbutton{
+    width: 0.3em;
+    height: 0.3em;
+    background-color: yellowgreen;
+    margin-left: 4.3em;
+    border-radius: 50%;
+    border: 0.08em solid black;
+    
+}
+
+
 .button1 {
     margin-left: 2.2em;
     margin-top: 0.6em;
@@ -226,6 +373,7 @@
     border-radius: 0.5em;
     display: flex;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
     
     
     
@@ -233,12 +381,14 @@
 }
 .buttonrow {
     margin-left: 0.8em;
-    margin-top: -3.4em;
+    margin-top: -3.34em;
     height: 1.8em;
     width: 4.9em;
     background-color: rgba(128, 128, 128, 0);
     border-radius: 0.5em;
     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    
     
     
 
@@ -253,8 +403,13 @@
     justify-content: center;
     align-items: center;
     color: blue;
+    cursor: pointer;
     box-shadow: 0.03em 0.08em 0em 0.07em rgb(116, 112, 112);
     
+}
+.X:active{
+    box-shadow: none;
+
 }
 .B{
     height: 1.6em;
@@ -267,7 +422,12 @@
     align-items: center;
     margin-top: 1.5em;
     color: yellow;
+    cursor: pointer;
     box-shadow: 0.03em 0.08em 0em 0.07em rgb(116, 112, 112);
+}
+.B:active{
+    box-shadow: none;
+
 }
 .Y{
     height: 1.6em;
@@ -279,8 +439,13 @@
     justify-content: center;
     align-items: center;
     color: rgb(0, 255, 115);
+    cursor: pointer;
     box-shadow: 0.03em 0.08em 0em 0.07em rgb(116, 112, 112);
     
+}
+.Y:active{
+    box-shadow: none;
+
 }
 .A{
     height: 1.6em;
@@ -293,8 +458,13 @@
     align-items: center;
     color: rgb(166, 1, 14);
     margin-left: 1.5em;
+    cursor: pointer;
     box-shadow: 0.03em 0.08em 0em 0.07em rgb(116, 112, 112);
     
+}
+.A:active{
+    box-shadow: none;
+
 }
 .joy3{
     height: 3.7em;
@@ -314,8 +484,23 @@
     height: 2.7em;
     width: 2.7em;
     border-radius: 50%;
+    cursor: pointer;
     background-color: rgb(40, 36, 36);
     border: 0.2em solid rgba(23, 22, 22, 0.468);
     box-shadow: 0.2em 0.3em 0em 0em rgba(79, 75, 75, 0.759);
 
+}
+.joy4:active{
+    margin-top: -0.5em;
+    margin-left: -0.5em;
+  
+    transition: 1;
+    background-color: solid rgba(21, 22, 22, 0.093);
+    border-radius: 50%;
+    box-shadow: 0.13em 0.2em 0.06em 0.1em rgba(79, 75, 75, 0.841);
+
+}
+img {
+    height: 14em;
+    width: 19.6em;
 }
