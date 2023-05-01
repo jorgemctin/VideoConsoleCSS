@@ -5,7 +5,7 @@
 
 #### Consola: 
 
-Anbernic RG552
+Anbernic RG552.
 
 #### Tecnologías utilizadas:
 
