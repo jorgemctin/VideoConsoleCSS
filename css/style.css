@@ -176,7 +176,7 @@
 }
 .arrowup:active{
     
-    background-color: rgba(127, 132, 131, 0.232);
+    background-color: rgba(127, 132, 131, 0.119);
     border-radius: 50% 50% 20% 20%;
     box-shadow: none;
     
@@ -194,7 +194,7 @@
 }
 .arrowdown:active{
    
-    background-color: rgba(127, 132, 131, 0.232);
+    background-color: rgba(127, 132, 131, 0.119);
     border-radius: 20% 20% 50% 50%;
     box-shadow: none;
    
@@ -237,7 +237,7 @@
 }
 
 .arrowleft:active{
-    background-color: rgba(127, 132, 131, 0.232);
+    background-color: rgba(127, 132, 131, 0.119);
     border-radius: 30% 30% 30% 30%;
     box-shadow: none;
     
@@ -250,7 +250,7 @@
    
 }
 .arrowright:active{
-    background-color: rgba(127, 132, 131, 0.232);
+    background-color: rgba(127, 132, 131, 0.119);
     border-radius: 30% 30% 30% 30%;
     box-shadow: none;
    
