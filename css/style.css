@@ -13,6 +13,7 @@
     flex-direction: column;
     background-color: rgba(10, 93, 93, 0.681);
     flex-direction: column;
+
     
 }
 
@@ -43,7 +44,7 @@
     height: 2em;
     width: 1em;
     background-color: rgba(31, 28, 28, 0.892);
-    margin-bottom: -7em;
+    margin-bottom: -7.4em;
     margin-top: 5em;
     margin-left: 34.17em;
 }
@@ -83,7 +84,7 @@
     height: 0.58em;
     width: 2.2em; 
     background-color: rgba(31, 28, 28, 0.892);
-    margin-left: 27.8em;
+    margin-left: 27.9em;
     border-radius: 10% 10% 30% 30% ;
     margin-bottom: -0.197em;
    
@@ -110,13 +111,15 @@
     background: linear-gradient(90deg,#9e9e9e 0%, #e0e0e0 40%, #777877 80%);
     background: -webkit-linear-gradient(90deg,#9e9e9e 0%, #e0e0e0 40%, #777877 80%);
     background: -moz-linear-gradient(90deg,#9e9e9e 0%, #e0e0e0 40%, #777877 80%);
-   
+  
 
 }
 
 .joystick1 {
     height: 17em;
     width: 7em;
+   
+   
    
 }
 
@@ -129,6 +132,8 @@
     font-family: Arial, sans-serif;
     font-size: 0.5em;
     font-weight: bold;
+   
+   
     
 }
 .selectbutton{
@@ -300,7 +305,7 @@
     justify-content: center;
     background-color: black;
     margin-top: 0.5em;
-   
+    
     border-radius: 0.6em;
     border: 0.01em solid black;
     
@@ -316,7 +321,7 @@
 .joystick2 {
     height: 17em;
     width: 7em;
-   
+    
 }
 .start{
     height: 2em;
@@ -330,7 +335,7 @@
     
     
 }
-.startbutton, .video{
+.startbutton{
     cursor: pointer;
     margin-left: 1em;
     margin-top: -0.64em;
