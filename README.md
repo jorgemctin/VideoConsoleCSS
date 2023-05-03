@@ -17,7 +17,7 @@ Anbernic RG552.
 
 ![play](./img/play.png)
 
-Se le da efectos de movilidad con CSS a los botones y joysticks.
+Se le da efectos de movilidad con CSS a los botones y joysticks con un diseño responsive.
 
 ![start](./img/start.png)
 
