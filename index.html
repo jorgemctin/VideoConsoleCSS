@@ -5,87 +5,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anbernic RG552</title>
-
     <link href="./css/style.css" rel="stylesheet">
 </head>
 <body>
-
+    <!-- FUNCTION TO SHOW IMAGE BY PRESS STAR-BUTTON -->
     <script>
-        function addImage(){
-        let image = document.getElementById("image");
-        document.getElementById("startbutton")
-        
-        if(image.style.display === '') image.style.display = 'block'
-       else image.style.display = image.style.display === 'none' ? 'block' : 'none'
-            }
+        function addImage() {
+            let image = document.getElementById("image");
+            if (image.style.display === '') image.style.display = 'block'
+            else image.style.display = image.style.display === 'none' ? 'block' : 'none'
+        }
     </script>
 
+<!-- VIDEO CONSOLE -->
+    <div class="container">
+        <div class="all">
+            <div style="user-select: none;">
 
-    <div class="container">      
-         <div class="all">
-             <div style="user-select: none;">
-                <div class="outsidebuttons"> 
+                <!-- OUTSIDE BUTTONS -->
+                <div class="outsidebuttons">
                     <div class="outmidleft"></div>
                     <div class="outmidright"></div>
                     <div class="right"></div>
                     <div class="left"></div>
                     <div class="buttonupleft"></div>
-                    <div class="buttonupright">                           
-              </div>
-                 <div class="anbernicborder">
-                    <div class="anbernic">        
-                       <div class="joystick1">
-                          <div class="select">SELECT</div>
-                          <div class="selectbutton">                           
-                     </div>            
-                         <div class="arrow1">                      
-                             <div class="arrowcol">
-                             <div class="arrowup">▲</div>
-                             <div class="arrowdown">▼                           
-                         </div>
-                     </div>                  
-                 </div>
-                     <div class="arrow2">                                 
-                           <div class="arrowleft">◀</div>
-                           <div class="circle"></div>
-                           <div class="arrowright">▶
-                      </div>
-                 </div>
-                      <div class="joy1">
-                      <div class="joy2"></div>
-                  </div>
-             </div> 
-                   <div class="borderscreen">
-                        <div class="screen">
-                            <img id="image" src="./img/image.png" alt="" style="display:none;">
-                       </div>
-                   </div>
-                        <div class="joystick2">
-                           <div class="start">START</div><div class="lightbutton"></div>
-                           <div class="startbutton" onclick=addImage()>
-                       </div>              
-                            <div class="button1">
-                            <div class="buttoncol">
-                               <div class="X">X</div>
-                               <div class="B">B</div>
-                           </div>
-                        </div>
-                           <div class="buttonrow">
-                               <div class="Y">Y</div>
-                               <div class="A">A                              
+                    <div class="buttonupright">
+                    </div>
+
+                    <!-- CONSOLE LEFT SIDE -->
+                    <div class="anbernicborder">
+                        <div class="anbernic">
+                            <div class="joystick1">
+                                <div class="select">SELECT</div>
+                                <div class="selectbutton">
+                                </div>
+                                <div class="arrow1">
+                                    <div class="arrowcol">
+                                        <div class="arrowup">▲</div>
+                                        <div class="arrowdown">▼
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="arrow2">
+                                    <div class="arrowleft">◀</div>
+                                    <div class="circle"></div>
+                                    <div class="arrowright">▶
+                                    </div>
+                                </div>
+                                <div class="joy1">
+                                    <div class="joy2"></div>
+                                </div>
                             </div>
-                      </div>
-                            <div class="joy3">
-                            <div class="joy4"></div>
-                       </div>
-                   </div>
+
+                            <!-- SCREEN  -->
+                            <div class="borderscreen">
+                                <div class="screen">
+
+                                    <!-- SHOW IMG JS -->
+                                    <img id="image" src="./img/image.png" alt="" style="display:none;">
+                                </div>
+                            </div>
+
+                            <!-- CONSOLE LEFT SIDE -->
+                            <div class="joystick2">
+                                <div class="start">START</div>
+                                <div class="lightbutton"></div>
+                                <div class="startbutton" onclick="addImage()">
+                                </div>
+                                <div class="button1">
+                                    <div class="buttoncol">
+                                        <div class="X">X</div>
+                                        <div class="B">B</div>
+                                    </div>
+                                </div>
+                                <div class="buttonrow">
+                                    <div class="Y">Y</div>
+                                    <div class="A">A
+                                    </div>
+                                </div>
+                                <div class="joy3">
+                                    <div class="joy4"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-     </div>
-   </div>
-</div>
-
-
+    </div>
 </body>
 </html>

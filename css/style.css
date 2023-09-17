@@ -1,46 +1,40 @@
-
-*{
-    margin: 0%;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
-.container{
+.container {
     height: 100vh;
-    width:100vw;
+    width: 100vw;
     display: flex;
+    background-color: rgba(9, 31, 26, 0.147);
     flex-direction: column;
-    background-color: rgba(10, 93, 93, 0.681);
-    flex-direction: column;
-
-    
 }
 
-.all{
+.all {
     height: 20em;
     margin-top: 13em;
     display: flex;
     align-items: center;
-    justify-content: center;    
-          
-}   
-.outsidebuttons{
+    justify-content: center;
+}
+
+.outsidebuttons {
     height: 18em;
     width: 40em;
     margin-left: 5em;
-    
-    
 }
-.outmidleft{
+
+.outmidleft {
     height: 3.8em;
     width: 1em;
     background-color: rgba(31, 28, 28, 0.892);
     margin-bottom: -10em;
     margin-left: -0.15em;
-   
 }
-.outmidright{
+
+.outmidright {
     height: 2em;
     width: 1em;
     background-color: rgba(31, 28, 28, 0.892);
@@ -48,82 +42,70 @@
     margin-top: 5em;
     margin-left: 34.17em;
 }
-.left{
+
+.left {
     height: 2em;
     width: 3.8em;
     background-color: rgba(31, 28, 28, 0.892);
     margin-left: 0.56em;
     margin-bottom: -2.03em;
     border-radius: 80% 0 0 0;
-   
-
 }
 
-.right{
+.right {
     height: 2.5em;
     width: 4em;
     margin-left: 30.6em;
     background-color: rgba(31, 28, 28, 0.892);
     margin-bottom: -2.46em;
     border-radius: 0 80% 0 0;
-  
-}
-.buttonupleft{
-   height: 0.64em;
-   width: 2.2em; 
-   background-color: rgba(31, 28, 28, 0.892);
-   margin-left: 4.9em;
-   border-radius: 10% 10% 30% 30%;  
-   margin-bottom: -0.66em;
-  
-   
- 
 }
 
-.buttonupright{
+.buttonupleft {
+    height: 0.64em;
+    width: 2.2em;
+    background-color: rgba(31, 28, 28, 0.892);
+    margin-left: 4.9em;
+    border-radius: 10% 10% 30% 30%;
+    margin-bottom: -0.66em;
+}
+
+.buttonupright {
     height: 0.58em;
-    width: 2.2em; 
+    width: 2.2em;
     background-color: rgba(31, 28, 28, 0.892);
     margin-left: 27.9em;
-    border-radius: 10% 10% 30% 30% ;
+    border-radius: 10% 10% 30% 30%;
     margin-bottom: -0.197em;
-   
-    
 }
 
-.anbernicborder{
+.anbernicborder {
     height: 16em;
-    width: 35em;   
+    width: 35em;
     border-radius: 3em;
     box-shadow: 0.2em 2.2em 1.5em -1em black;
     z-index: 1;
-    
 }
-.anbernic{
-    
+
+.anbernic {
     height: 16em;
-    width: 35em;   
+    width: 35em;
     border: 0.1em solid black;
     border-radius: 3em;
     box-shadow: inset 0 0 0.5em 0.5em rgb(98, 94, 94);
     border-color: rgb(28, 27, 27);
     display: flex;
-    background: linear-gradient(90deg,#9e9e9e 0%, #e0e0e0 40%, #777877 80%);
-    background: -webkit-linear-gradient(90deg,#9e9e9e 0%, #e0e0e0 40%, #777877 80%);
-    background: -moz-linear-gradient(90deg,#9e9e9e 0%, #e0e0e0 40%, #777877 80%);
-  
-
+    background: linear-gradient(90deg, #9e9e9e 0%, #e0e0e0 40%, #777877 80%);
+    background: -webkit-linear-gradient(90deg, #9e9e9e 0%, #e0e0e0 40%, #777877 80%);
+    background: -moz-linear-gradient(90deg, #9e9e9e 0%, #e0e0e0 40%, #777877 80%);
 }
 
 .joystick1 {
     height: 17em;
     width: 7em;
-   
-   
-   
 }
 
-.select{
+.select {
     height: 2em;
     width: 2em;
     margin-left: 9em;
@@ -132,31 +114,25 @@
     font-family: Arial, sans-serif;
     font-size: 0.5em;
     font-weight: bold;
-   
-   
-    
 }
-.selectbutton{
+
+.selectbutton {
     margin-left: 5.1em;
     margin-top: -0.3em;
     height: 0.75em;
     width: 0.75em;
     border: 0.08em solid black;
-    border-color:  black;
+    border-color: black;
     border-radius: 50%;
     cursor: pointer;
     background-color: rgb(55, 54, 54);
     box-shadow: -0.03em 0.07em 0em 0.05em rgb(103, 97, 97);
 }
 
-.selectbutton:active{
-  
-    
+.selectbutton:active {
     background-color: rgba(66, 68, 67, 0.773);
     border-radius: 50%;
     box-shadow: none;
-    
-
 }
 
 .arrow1 {
@@ -167,38 +143,32 @@
     background-color: rgb(38, 35, 35);
     border-radius: 0.5em;
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     box-shadow: -0.03em 0.05em 0em 0.05em rgb(116, 112, 112);
- 
-
-
 }
-.arrowup:active{
-    
+
+.arrowup:active {
     background-color: rgba(127, 132, 131, 0.119);
     border-radius: 50% 50% 20% 20%;
     box-shadow: none;
-    
-
 }
 
-.arrowup{
+.arrowup {
     margin-bottom: 1.7em;
     font-size: 1.06em;
     cursor: pointer;
 }
-.arrowdown{
+
+.arrowdown {
     font-size: 1.06em;
     cursor: pointer;
 }
-.arrowdown:active{
-   
+
+.arrowdown:active {
     background-color: rgba(127, 132, 131, 0.119);
     border-radius: 20% 20% 50% 50%;
     box-shadow: none;
-   
-
 }
 
 .arrow2 {
@@ -209,54 +179,48 @@
     background-color: rgb(38, 35, 35);
     border-radius: 0.5em;
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     box-shadow: -0.09em 0em 0em 0em rgb(116, 112, 112);
-    
-   
-
-
 }
 
-.circle{
+.circle {
     height: 1.1em;
     width: 1.1em;
     border-radius: 50%;
     background-color: #322f2fc7;
     margin-right: 0.6em;
-    
 }
 
-.arrowleft{
+.arrowleft {
     margin-right: 0.5em;
     margin-top: 0.1em;
     font-size: 1em;
     cursor: pointer;
-
-   
 }
 
-.arrowleft:active{
+.arrowleft:active {
     background-color: rgba(127, 132, 131, 0.119);
     border-radius: 30% 30% 30% 30%;
     box-shadow: none;
-    
+
 
 }
-.arrowright{
+
+.arrowright {
     margin-top: 0.1em;
     font-size: 1em;
     cursor: pointer;
-   
 }
-.arrowright:active{
+
+.arrowright:active {
     background-color: rgba(127, 132, 131, 0.119);
     border-radius: 30% 30% 30% 30%;
     box-shadow: none;
-   
+
 }
 
-.joy1{
+.joy1 {
     height: 3.7em;
     width: 3.7em;
     border-radius: 50%;
@@ -267,14 +231,9 @@
     justify-content: center;
     align-items: center;
     border: 0.13em solid rgba(9, 9, 9, 0.468);
-
-
-
-
 }
 
-.joy2{
-
+.joy2 {
     height: 2.7em;
     width: 2.7em;
     border-radius: 50%;
@@ -282,22 +241,17 @@
     border: 0.2em solid rgba(23, 22, 22, 0.468);
     box-shadow: -0.2em 0.34em 0em 0em rgba(79, 75, 75, 0.841);
     cursor: pointer;
-    
-
-    
-    
 }
-.joy2:active{
+
+.joy2:active {
     margin-top: -0.5em;
     margin-left: 0.5em;
- 
     background-color: solid rgba(21, 22, 22, 0.093);
     border-radius: 50%;
     box-shadow: -0.1em 0.2em 0.06em 0.1em rgba(79, 75, 75, 0.841);
-
 }
 
-.borderscreen{
+.borderscreen {
     height: 15em;
     width: 22em;
     display: flex;
@@ -305,11 +259,10 @@
     justify-content: center;
     background-color: black;
     margin-top: 0.5em;
-    
     border-radius: 0.6em;
     border: 0.01em solid black;
-    
 }
+
 .screen {
     height: 14em;
     width: 19.6em;
@@ -321,9 +274,9 @@
 .joystick2 {
     height: 17em;
     width: 7em;
-    
 }
-.start{
+
+.start {
     height: 2em;
     width: 2em;
     margin-left: 1.2em;
@@ -332,40 +285,34 @@
     font-family: Arial, sans-serif;
     font-size: 0.5em;
     font-weight: bold;
-    
-    
 }
-.startbutton{
+
+.startbutton {
     cursor: pointer;
     margin-left: 1em;
     margin-top: -0.64em;
     height: 0.75em;
     width: 0.75em;
     border: 0.08em solid black;
-    border-color:  black;
+    border-color: black;
     border-radius: 50%;
     background-color: rgb(55, 54, 54);
     box-shadow: 0.02em 0.07em 0em 0.05em rgb(103, 97, 97);
-
 }
 
-.startbutton:active{
-  
-    
+.startbutton:active {
     background-color: rgba(66, 68, 67, 0.773);
     border-radius: 50%;
     box-shadow: none;
-    
-
 }
-.lightbutton{
+
+.lightbutton {
     width: 0.3em;
     height: 0.3em;
     background-color: yellowgreen;
     margin-left: 4.3em;
     border-radius: 50%;
     border: 0.08em solid black;
-    
 }
 
 
@@ -379,11 +326,8 @@
     display: flex;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-    
-    
-    
-
 }
+
 .buttonrow {
     margin-left: 0.8em;
     margin-top: -3.34em;
@@ -393,12 +337,9 @@
     border-radius: 0.5em;
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
-    
-    
-    
-
 }
-.X{
+
+.X {
     height: 1.6em;
     width: 1.6em;
     background-color: rgb(40, 36, 36);
@@ -410,13 +351,13 @@
     color: blue;
     cursor: pointer;
     box-shadow: 0.03em 0.08em 0em 0.07em rgb(116, 112, 112);
-    
 }
-.X:active{
-    box-shadow: none;
 
+.X:active {
+    box-shadow: none;
 }
-.B{
+
+.B {
     height: 1.6em;
     width: 1.6em;
     background-color: rgb(40, 36, 36);
@@ -430,11 +371,12 @@
     cursor: pointer;
     box-shadow: 0.03em 0.08em 0em 0.07em rgb(116, 112, 112);
 }
-.B:active{
-    box-shadow: none;
 
+.B:active {
+    box-shadow: none;
 }
-.Y{
+
+.Y {
     height: 1.6em;
     width: 1.6em;
     background-color: rgb(40, 36, 36);
@@ -446,13 +388,13 @@
     color: rgb(0, 255, 115);
     cursor: pointer;
     box-shadow: 0.03em 0.08em 0em 0.07em rgb(116, 112, 112);
-    
 }
-.Y:active{
-    box-shadow: none;
 
+.Y:active {
+    box-shadow: none;
 }
-.A{
+
+.A {
     height: 1.6em;
     width: 1.6em;
     background-color: rgb(40, 36, 36);
@@ -465,13 +407,13 @@
     margin-left: 1.5em;
     cursor: pointer;
     box-shadow: 0.03em 0.08em 0em 0.07em rgb(116, 112, 112);
-    
 }
-.A:active{
-    box-shadow: none;
 
+.A:active {
+    box-shadow: none;
 }
-.joy3{
+
+.joy3 {
     height: 3.7em;
     width: 3.7em;
     border-radius: 50%;
@@ -484,8 +426,7 @@
     border: 0.13em solid rgba(9, 9, 9, 0.468);
 }
 
-.joy4{
-
+.joy4 {
     height: 2.7em;
     width: 2.7em;
     border-radius: 50%;
@@ -493,19 +434,37 @@
     background-color: rgb(40, 36, 36);
     border: 0.2em solid rgba(23, 22, 22, 0.468);
     box-shadow: 0.2em 0.3em 0em 0em rgba(79, 75, 75, 0.759);
-
 }
-.joy4:active{
+
+.joy4:active {
     margin-top: -0.5em;
     margin-left: -0.5em;
-  
     transition: 1;
     background-color: solid rgba(21, 22, 22, 0.093);
     border-radius: 50%;
     box-shadow: 0.13em 0.2em 0.06em 0.1em rgba(79, 75, 75, 0.841);
-
 }
+
 img {
     height: 14em;
     width: 19.6em;
+}
+
+/* Estilos para pantallas pequeñas (máximo 767px de ancho) */
+@media (max-width: 767px) {
+    /* Aplica estilos específicos para pantallas pequeñas aquí */
+    .container {
+        /* Ajusta el ancho de tu contenedor principal */
+        width: 100%; 
+        padding: 0 10px; /* Agrega espaciado a los lados del contenedor */
+    }
+    /* Ajusta el tamañvscode-file://vscode-app/c:/Users/Jorge%20Martin/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.htmlo de fuente y otros estilos para pantallas pequeñas */
+    .all {
+        margin-top: 6em;
+    ; /* Ejemplo de ajuste de margen superior */
+    }
+    .outsidebuttons {
+        /* Puedes ajustar estilos específicos aquí */
+    }
+    /* Ajusta otros elementos según sea necesario */
 }
